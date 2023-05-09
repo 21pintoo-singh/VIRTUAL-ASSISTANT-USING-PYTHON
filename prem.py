@@ -89,4 +89,19 @@ def searchOnGoogle(query):
     
 
     
-
+    
+if True:
+    wishMe()
+    while True:
+        query = takeCommand().lower()
+        if 'wikipedia' in query:
+            wikipediaSearch(query)
+        elif 'close program' in query or 'close the program' in query:
+            speak('Thankyou for your time sir')
+            speak('Have a nice day')
+            break
+        elif 'search' in query or 'find' in query:
+            searchOnGoogle(query)
+     
+    
+print("Bye")
