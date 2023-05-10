@@ -1,9 +1,10 @@
-'''In Terminal type
+'''In Terminal type:-
 
-pip install pipwin
+// pip install pipwin
+
 Then
 
-pipwin install pyaudio'''
+// pipwin install pyaudio '''
 
 
 import pyttsx3                        # text-to-speech conversion library in Python
@@ -37,13 +38,16 @@ def wishMe(): # under wish me we can use speak function
         speak('Good evening dear.')
     else:
         speak('Good evening dear')
+        
 
     speak('I am Pintoo')
     speak('How can i help you sir')
 
+    
+
 
 def takeCommand(): #takeCommant what they can do, if i was speak anything in mic then return a string
-    
+
     # this function takes user command using user mic
     # and it returns output as a string
     # whatever user says
@@ -70,6 +74,7 @@ def takeCommand(): #takeCommant what they can do, if i was speak anything in mic
 
 def wikipediaSearch(query):
     #pls tell likes:- sharukh khan... according to wiki ya direct tell wikipedia
+    
     try:
         speak('Searching Wikipedia...')
         query = query.replace('wikipedia', '')
@@ -78,6 +83,7 @@ def wikipediaSearch(query):
         speak('According to Wikipedia')
         print(results)
         speak(results)
+        
     except:
         print('Wikipedia not found !')
 
@@ -91,7 +97,7 @@ def searchOnGoogle(query):
 if True:
     wishMe()
     while True:
-        query = takeCommand().lower()
+        query = takeCommand().lower() # takecommand return a string , and convert lower case
         if 'wikipedia' in query:
             wikipediaSearch(query)
         elif 'close program' in query or 'close the program' in query:
