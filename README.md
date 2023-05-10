@@ -484,3 +484,5 @@ Web Technologies and Knowledge Databases
 ▪ Python code for Artificial Intelligence: Foundations of Computational Agents
 - David L. Poole and Alan K. Mackworth
 THANK YOU
+
+youtube link: https://www.youtube.com/watch?v=Lp9Ftuq2sVI
