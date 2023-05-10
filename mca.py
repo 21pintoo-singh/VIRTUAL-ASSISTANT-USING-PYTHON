@@ -54,7 +54,7 @@ if __name__ == "__main__":
     wishMe()
     takeCommand()
 
-'''def sendEmail(to, content):
+def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
@@ -111,4 +111,3 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
                 speak("Sorry my friend harry bhai. I am not able to send this email")    
-'''
