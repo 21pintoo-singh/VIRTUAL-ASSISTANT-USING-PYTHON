@@ -1,10 +1,10 @@
-import pyttsx3 #pip install pyttsx3
-import speech_recognition as sr #pip install speechRecognition
+import pyttsx3 #pip install pyttsx3 , pyttsx3 is a text-to-speech conversion library in Python.
+import speech_recognition as sr #pip install speechRecognition , Library for performing speech recognition, with support for several engines and APIs, online and offline.
 import datetime
-import wikipedia #pip install wikipedia
-import webbrowser
-import os
-import smtplib
+import wikipedia #pip install wikipedia , Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia.
+import webbrowser  #The webbrowser module provides a high-level interface to allow displaying web-based documents to users. Under most circumstances, simply calling the open() function from this module will do the right thing.
+import os #Python OS module provides the facility to establish the interaction between the user and the operating system
+import smtplib #for messanging
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
